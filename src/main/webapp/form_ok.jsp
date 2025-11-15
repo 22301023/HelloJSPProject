@@ -11,6 +11,7 @@
     String lastname = request.getParameter("lastname");
     String email = request.getParameter("email");
     String gender = request.getParameter("gender");
+    String age = request.getParameter("age");
 
 %>
 
@@ -25,6 +26,7 @@
 이름: <%=firstname%><br>
 이메일: <%=email%><br>
 성별: <%=gender%><br>
+나이: <%=age%><br>
 
 </body>
 </html>

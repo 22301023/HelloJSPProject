@@ -22,6 +22,10 @@
         <option value="Female">Female</option>
     </select>
 
+    <label for="age">age</label>
+    <input type="text" id="age" name="age" placeholder="type your age">
+
+
     <input type="submit" value="Submit">
     <br>
 </form>
