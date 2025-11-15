@@ -7,8 +7,10 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%
+    String firstname = request.getParameter("firstname");
+    String lastname = request.getParameter("lastname");
     String email = request.getParameter("email");
-    String password = request.getParameter("password");
+    String gender = request.getParameter("gender");
 
 %>
 
@@ -19,8 +21,10 @@
 
 </head>
 <body>
+성: <%=lastname%><br>
+이름: <%=firstname%><br>
 이메일: <%=email%><br>
-암호: <%=password%><br>
+성별: <%=gender%><br>
 
 </body>
 </html>
